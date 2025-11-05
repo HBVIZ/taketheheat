@@ -1,0 +1,11 @@
+{
+  "name": "liquid-cursor",
+  "version": "1.0.0",
+  "description": "A Three.js project that creates a liquid-like reveal effect where moving your cursor reveals the image underneath with a fluid, mask-based animation.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
