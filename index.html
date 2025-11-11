@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,25 +11,25 @@
             padding: 0;
             box-sizing: border-box;
         }
-        
+
         body {
             overflow: hidden;
             background: #000;
             font-family: Arial, sans-serif;
         }
-        
+
         #canvas-container {
             width: 100vw;
             height: 100vh;
             position: relative;
         }
-        
+
         canvas {
             display: block;
             width: 100%;
             height: 100%;
         }
-        
+
         #info {
             position: absolute;
             top: 20px;
@@ -42,14 +43,12 @@
         }
     </style>
 </head>
+
 <body>
-    <div id="info">
-        Move your cursor to reveal the image below
-    </div>
     <div id="canvas-container">
         <canvas id="fluid-canvas"></canvas>
     </div>
-    
     <script type="module" src="main.js"></script>
 </body>
+
 </html>
